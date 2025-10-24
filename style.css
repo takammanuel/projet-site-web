@@ -1,0 +1,63 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #eef3f8;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover, nav a.active {
+  text-decoration: underline;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  margin-top: 15px;
+  color: green;
+  text-align: center;
+}
