@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", () => {
   const services = document.querySelectorAll(".service");
   services.forEach((s, i) => {
@@ -9,11 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }, i * 400);
   });
 =======
+=======
+>>>>>>> apropos
 // Petit effet sur le bouton d’accueil
 document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById("btn-info");
     btn.addEventListener("click", () => {
         alert("Merci ! Un agent prendra contact avec vous pour planifier votre rendez-vous.");
     });
+<<<<<<< HEAD
 >>>>>>> a59e1cc (Nettoyage avant fusion et ajout de mes fichiers)
+=======
+>>>>>>> apropos
 });
